@@ -71,7 +71,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
     private TextView mReviewsEmptyView     = null;
     private ImageButton mFavoriteButton = null;
     private ImageView mCalendarImageView = null;
-    private View mDetailsSeperator = null;
+   // private View mDetailsSeperator = null;
     private TextView mTrailersHeaderTextView = null;
     private TextView mReviewsHeaderTextView = null;
 
@@ -206,7 +206,7 @@ public class MovieDetailsActivityFragment extends Fragment  implements LoaderMan
         mMovieRatingsView.setVisibility(View.INVISIBLE);
         mCalendarImageView.setVisibility(View.INVISIBLE);
         mFavoriteButton.setVisibility(View.INVISIBLE);
-        mDetailsSeperator.setVisibility(View.INVISIBLE);
+        //mDetailsSeperator.setVisibility(View.INVISIBLE);
         mTrailersHeaderTextView.setVisibility(View.INVISIBLE);
         mReviewsHeaderTextView.setVisibility(View.INVISIBLE);
     }
